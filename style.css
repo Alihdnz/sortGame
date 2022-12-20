@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'VT323', monospace;
+
+}
+
+body {
+    background: linear-gradient(63.23deg, #440A4E 2.03%, rgba(18, 1, 5, 0.946) 54.05%, rgb(255, 0, 51)100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sortContainer{
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.sortContainer h2 {
+    font-size: 40px;
+}
+
+.sortContainer span {
+    font-size: 30px;
+}
+
+.logoContainer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.logoContainer img {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.sortButton {
+    margin-top: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sortButton img {
+    width: 97px;
+    height: auto;
+}
+
