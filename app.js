@@ -7,7 +7,7 @@ const options = {
       'Content-Type': 'application/json',
       
     },
-    body: 'fields name, genres.name, screenshots.url, artworks.url; where platforms = 19; limit 100;'
+    body: 'fields name, genres.name, screenshots.url, artworks.url; where platforms = 19; limit 1000;'
   };
   
   fetch('https://cors-anywhere.herokuapp.com/https://api.igdb.com/v4/games', options)
